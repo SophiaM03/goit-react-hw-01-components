@@ -14,17 +14,17 @@
 .avatar {
   border-radius: 9px;
 }
-.status {
+
+.online {
   border-radius: 50%;
   width: 15px;
   height: 15px;
-}
-.online {
-  composes: status;
   background-color: #00ff00;
 }
 .offline {
-  composes: status;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
   background-color: #ff0000;
 }
 .name {
