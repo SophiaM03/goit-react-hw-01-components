@@ -1,0 +1,30 @@
+.transaction {
+  display: flex;
+  justify-content: center;
+}
+.transactionHistory {
+  table-layout: fixed;
+  min-width: 400px;
+  max-width: 800px;
+  width: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.67) 0px 4px 10px;
+}
+.transactionThead {
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 3;
+  background-color: #2abfd3a9;
+  color: #fff;
+}
+.transactionTr:nth-child(2n) {
+  background-color: #c8ccce8c;
+}
+
+.transactionData {
+  font-size: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 2;
+  color: #a7adb1;
+}
